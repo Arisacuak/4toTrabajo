@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient( rgb(47, 29, 66)0% , rgb(0,0,0))
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.274), 100;
+}
+
+.borimg{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(96, 91, 107, 0.116)1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: orbit 3s linear infinite;
+    position: absolute;
+}
+
+@keyframes orbit {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.imgcan{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: orbit 2s linear infinite;
+    position: absolute;
+}
+
+@keyframes orbit {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.imagen{
+    height: 370px;
+    width: 370px;
+    background-color: rgb(168, 94, 94);
+    border-radius: 50%;
+    position: relative;
+}
+
+.luz{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    animation: fosfo 2s linear infinite;
+}
+
+@keyframes fosfo {
+    0%{
+        background-color: black;
+        filter: drop-shadow(0px 0px 10px black)
+    }
+
+    50%{
+        background-color: rgb(82, 51, 112);
+        filter: drop-shadow(0px 0px 10px rgb(82, 51, 112))
+    }
+
+    100%{
+        background-color: black;
+        filter: drop-shadow(0px 0px 10px black)
+    }
+}
+
+#borimg_2{
+    animation-delay: 20ms;
+    background: transparent;
+}
+#borimg_3{
+    animation-delay: 30ms;
+    background: transparent;
+}
+#borimg_4{
+    animation-delay: 40ms;
+    background: transparent;
+}
+#borimg_5{
+    animation-delay: 50ms;
+    background: transparent;
+}
+#borimg_6{
+    animation-delay: 60ms;
+    background: transparent;
+}
+#borimg_7{
+    animation-delay: 70ms;
+    background: transparent;
+}
+#borimg_8{
+    animation-delay: 80ms;
+    background: transparent;
+}
+#borimg_9{
+    animation-delay: 90ms;
+    background: transparent;
+}
+#borimg_10{
+    animation-delay: 100ms;
+    background: transparent;
+}
+#borimg_11{
+    animation-delay: 110ms;
+    background: transparent;
+}
+#borimg_12{
+    animation-delay: 120ms;
+    background: transparent;
+}
+#borimg_13{
+    animation-delay: 130ms;
+    background: transparent;
+}
+#borimg_14{
+    animation-delay: 140ms;
+    background: transparent;
+}
+#borimg_15{
+    animation-delay: 150ms;
+    background: transparent;
+}
+
+
+.bdr{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    position: relative;
+}
+
+
